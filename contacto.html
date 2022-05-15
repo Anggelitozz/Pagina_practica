@@ -13,5 +13,23 @@
     <br>
     <a href="contacto.html">Contactanos</a>
     <h1>Contactanos</h1>
+    <br>
+    <p>Por favor rellena el formulario</p>
+    <form method="POST" enctype="application/x-www-form-urlencoded">
+        <label for="nombres">Nombres</label><br>
+        <input type="text" name="nombres" id="nombres"><br>
+        <label for="apellidos">Apellidos</label><br>
+        <input type="text" name="apellidos" id="apellidos"><br>
+        <label for="tipoDeUsuario">Tipo de usuario</label><br>
+        <select name="tipoDeUsuario">
+            <option value="1">Cliente</option>
+            <option value="2">Empresa</option>
+            <option value="3">Desarrollador</option>
+        </select><br>
+        <label for="correo">Correo</label><br>
+        <input type="text" name="correo" id="correo"><br>
+        <input type="checkbox" name="notificaciones" id="notificaciones">
+        <label for="notificaciones">¿Recibir correos de la página?</label><br>
+        <input type="submit" value="Enviar">
 </body>
 </html>
